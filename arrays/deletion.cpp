@@ -32,7 +32,7 @@ int main(){
     printArray(arr, size);
 
     int pos;
-    cout<<" Enter postion from where you wnat to remove element : ";
+    cout<<" Enter postion from where you want to remove element : ";
     cin>> pos;
     if(pos<=0 || pos >size){
         cout<<" Invalid Position"<<endl;
